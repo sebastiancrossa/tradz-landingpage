@@ -375,6 +375,43 @@ hr {
   width: 175px;
   margin-left: 15px; }
 
+#open-account {
+  margin-top: 200px; }
+
+#open-account-content {
+  display: grid;
+  grid-template-columns: repeat(2, auto); }
+
+#open-account-text {
+  width: 317px; }
+  #open-account-text h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    color: #142535;
+    text-transform: uppercase;
+    margin: 0; }
+  #open-account-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ABABAB; }
+
+#open-account-button {
+  height: 70px;
+  width: 326;
+  justify-self: end;
+  margin-right: 80px; }
+
+#open-account-content {
+  margin-top: 50px; }
+
+.line {
+  background-color: #EFEFEF;
+  height: 10px;
+  width: 1100px;
+  margin: 40px auto; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -414,7 +451,7 @@ hr {
   margin: 10px 0;
   line-height: 1.8; }
 
-#content-text-button {
+.content-text-button {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   padding: 21px 35px;
