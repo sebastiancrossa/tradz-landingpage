@@ -342,6 +342,39 @@ hr {
       color: #ABABAB;
       padding: 0 20px; }
 
+#description {
+  margin-top: 170px; }
+  #description #description-features {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    grid-gap: 140px;
+    margin: 66px 0; }
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center; }
+
+.description-feature-icon {
+  width: 236px; }
+
+.description-feature-title {
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 41px 0 17px 15px; }
+
+.description-feature-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ABABAB;
+  width: 175px;
+  margin-left: 15px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -362,7 +395,7 @@ hr {
 .content {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  margin-top: 160px;
+  margin-top: 130px;
   margin-left: 50px; }
   .content img {
     margin-top: -90px; }
@@ -391,14 +424,16 @@ hr {
   border-radius: 10px;
   background: #2DD393;
   color: white;
-  font-weight: 600; }
+  font-weight: 600;
+  letter-spacing: 1px; }
 
 #trading-fee-content {
   border: 2px solid #DFDFDF;
+  background-color: transparent;
   border-radius: 10px;
   width: 300px;
   height: 120px;
-  margin-top: 50px; }
+  margin-top: 40px; }
   #trading-fee-content h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
