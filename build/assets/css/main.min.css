@@ -415,14 +415,17 @@ hr {
   margin: 40px auto; }
 
 #demo {
-  margin: 160px 0 0 94px; }
+  margin: 160px 0 230px 94px; }
 
-#demo-content-text {
-  width: 417px; }
+.demo-content-text {
+  width: 417px;
+  margin-top: 50px; }
 
 .demo-content {
   display: grid;
-  grid-template-columns: repeat(2, auto); }
+  grid-template-columns: repeat(2, auto);
+  overflow: hidden;
+  margin-bottom: 190px; }
   .demo-content h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
@@ -443,6 +446,11 @@ hr {
     width: 630px;
     position: relative;
     right: -25%; }
+
+#demo-content-2 img {
+  width: 522px;
+  position: relative;
+  right: 0; }
 
 .flex-video {
   height: 0;
