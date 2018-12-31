@@ -544,6 +544,71 @@ hr {
 #nydn {
   width: 112px; }
 
+#signup {
+  margin: 283px 0 150px 0; }
+
+#signup-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-items: center; }
+
+#signup-text h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #142535;
+  margin: 0 0 20px 0; }
+
+#signup-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 352px;
+  color: #ABABAB;
+  margin-bottom: 57px; }
+
+#signup-text img {
+  width: 245px; }
+
+#signup-form {
+  background: inherit;
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
+  width: 394px;
+  height: 367px; }
+  #signup-form h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    padding: 10px 0 10px 0;
+    text-align: center; }
+  #signup-form button {
+    display: block;
+    background: #2DD393;
+    text-transform: uppercase;
+    border-style: none;
+    width: 334px;
+    height: 72px;
+    padding: 25px 108px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: white; }
+
+.input-container {
+  background: #F2F2F2;
+  border-radius: 9px;
+  width: 334px;
+  height: 51px;
+  margin: 0 auto 32px auto;
+  border-style: none; }
+  .input-container input {
+    background: #F2F2F2;
+    border-style: none;
+    height: 45px;
+    width: 310px;
+    margin: 2.5px 8px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
