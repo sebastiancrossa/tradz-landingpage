@@ -519,6 +519,31 @@ hr {
   color: #ABABAB;
   margin-bottom: 30px; }
 
+#media {
+  margin-top: 200px; }
+
+#media-title {
+  font-size: 35px; }
+
+#media-logos {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  justify-content: center;
+  grid-gap: 136px; }
+
+#yahoo {
+  width: 173px; }
+
+#money-control {
+  width: 184px; }
+
+#cnbc {
+  width: 96px; }
+
+#nydn {
+  width: 112px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
