@@ -430,7 +430,7 @@ hr {
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     font-weight: 600;
-    margin: 0 0 15px 0; }
+    margin: 0 0 20px 0; }
   .demo-content p {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -486,6 +486,38 @@ hr {
     font-size: 14px;
     color: #2DD393;
     text-transform: uppercase; }
+
+#refer {
+  margin-top: 288px;
+  margin-left: 94px; }
+  #refer img {
+    width: 597px; }
+
+#refer-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, auto); }
+
+#refer-text h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0; }
+
+#refer-text h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  margin: 15px 0 20px 0; }
+  #refer-text h2 span {
+    color: #2DD393; }
+
+#refer-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  width: 397px;
+  color: #ABABAB;
+  margin-bottom: 30px; }
 
 .flex-video {
   height: 0;
