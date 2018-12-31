@@ -452,6 +452,41 @@ hr {
   position: relative;
   right: 0; }
 
+#feature-cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-items: center;
+  margin-top: 300px; }
+
+#featurecard-image1 {
+  width: 169px; }
+
+#featurecard-image2 {
+  width: 170px; }
+
+#featurecard-image3 {
+  width: 148px; }
+
+.featurecard-text {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 58px;
+  width: 167px; }
+  .featurecard-text h4 {
+    font-size: 24px;
+    color: #142535;
+    font-weight: 600;
+    margin: 0; }
+  .featurecard-text p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #ABABAB;
+    margin: 0 0 15px 0; }
+  .featurecard-text a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #2DD393;
+    text-transform: uppercase; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
