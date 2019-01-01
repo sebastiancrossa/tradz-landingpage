@@ -334,7 +334,8 @@ hr {
     padding: 10px;
     border: 1px solid #2DD393;
     border-radius: 8px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    margin-right: 20px; }
   .main-nav li {
     list-style: none;
     font-family: 'Montserrat', sans-serif;
@@ -343,6 +344,14 @@ hr {
     .main-nav li a {
       color: #ABABAB;
       padding: 0 20px; }
+
+@media only screen and (max-width: 900px) {
+  .main-nav {
+    display: block;
+    text-align: center; }
+    .main-nav li:nth-child(7) {
+      border: none;
+      margin: 5px auto; } }
 
 #description {
   margin-top: 170px; }
@@ -763,6 +772,27 @@ hr {
 
 #column1 {
   justify-self: start; }
+
+@media only screen and (max-width: 740px) {
+  #secondary-footer-content {
+    grid-template-columns: auto;
+    justify-content: center; } }
+
+@media only screen and (max-width: 500px) {
+  #main-footer {
+    grid-template-columns: repeat(2, auto); } }
+
+@media only screen and (max-width: 450px) {
+  #secondary-links {
+    display: block;
+    text-align: center; }
+  #secondary-footer-content {
+    text-align: center; } }
+
+@media only screen and (max-width: 300px) {
+  #main-footer {
+    grid-template-columns: auto;
+    text-align: center; } }
 
 .flex-video {
   height: 0;

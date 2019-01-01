@@ -57,3 +57,26 @@
 
 #column1
     justify-self: start
+
+// MEDIA QUERIES
+@media only screen and (max-width: 740px)
+    #secondary-footer-content
+        grid-template-columns: auto
+        justify-content: center
+
+@media only screen and (max-width: 500px)
+    #main-footer
+        grid-template-columns: repeat(2, auto)
+
+@media only screen and (max-width: 450px)
+    #secondary-links
+        display: block
+        text-align: center
+    
+    #secondary-footer-content
+        text-align: center
+
+@media only screen and (max-width: 300px)
+    #main-footer
+        grid-template-columns: auto
+        text-align: center
