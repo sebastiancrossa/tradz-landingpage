@@ -551,7 +551,7 @@ hr {
     margin-bottom: 60px; } }
 
 #refer {
-  margin-top: 288px;
+  margin-top: 300px;
   margin-left: 94px; }
   #refer img {
     width: 597px; }
@@ -810,6 +810,23 @@ hr {
   top: 0;
   width: 100%;
   left: 0; }
+
+#square1 {
+  position: absolute;
+  width: 50%;
+  z-index: -1;
+  top: 0;
+  right: 0; }
+
+#square2 {
+  position: absolute;
+  width: 25%;
+  z-index: -1; }
+
+#square3 {
+  position: absolute;
+  width: 20%;
+  z-index: -1; }
 
 .content {
   display: grid;
