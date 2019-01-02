@@ -1,3 +1,10 @@
+<div align="center">
+  <br>
+  <img
+  src="screenshot.jpg"
+  />
+</div>
+
 # Tradz - Digital trading currency platform
 
 Landing page for a digital trading currency platform.
